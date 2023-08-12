@@ -197,6 +197,7 @@
 .content-send  {
     text-align: center;
     padding: 100px 300px;
+    margin-top: 100px; 
 }
 .content-send h3 {
     color: #fff;
@@ -204,7 +205,7 @@
     padding: 10px 0;
 }
 .content-send p {
-    padding: 10px 0;;
+    padding: 10px 0;
 }
 .content-send button {
     background-color: #fff;
@@ -214,6 +215,31 @@
     cursor: pointer;
     border : none;
 }
+.content-send p {
+    color: #fff;
+    padding: 8px 0 25px 0;
+}
 .footer {
     background-color: #072038;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 100px 130px;
+}
+.social {
+    padding: 15px 0;
+}
+.social img {
+    padding-right: 10px;
+}
+.footer-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.sub-footer h3 {
+    color: #fff;
+    padding-bottom: 20px;
+}
+.sub-footer p {
+    color: #ACB4BC;
+    padding: 10px 0;
 }
